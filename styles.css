@@ -85,6 +85,7 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
+  opacity: .95;
 } 
 .location {
   background-color: black;
