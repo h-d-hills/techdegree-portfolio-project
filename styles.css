@@ -80,6 +80,7 @@ header .profile-image:hover {
   border: 3px dashed black;
   background-color: rgb(179, 80, 0);
 }
+
 .tag {
   background-color: rgb(179,80,0);
   color: black;
@@ -110,7 +111,13 @@ header .profile-image:hover {
   border: 4px dashed rgb(179, 80, 0);
   border-radius: 6px;
   transition: all .5s;
+  color: black;
 }
+
+.contact-link {
+  color: rgb(0,54,155);
+}
+
 .card:hover {
   opacity: 1;
   border-color: #770000;
