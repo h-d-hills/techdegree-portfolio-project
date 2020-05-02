@@ -88,23 +88,33 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
   opacity: .95;
-} 
+  transition: all .5s;
+}
+
+.tag:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
 .location {
   background-color: black;
   color: rgb(179,80,0);
 }
 .card {
+  opacity: .95;
   margin: 10px;
   padding: 10px 10px 10px;
   max-width: 500px;
   text-align: left;
   background: rgb(179, 80, 0);
-  border-bottom: 4px solid rgb(179,80,0);
+  border: 4px dashed rgb(179, 80, 0);
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
+  opacity: 1;
   border-color: #770000;
+  transform: scale(1.05);
 }
 
 ul.skills {
@@ -167,6 +177,7 @@ a.github {
 }
 a.social:hover {
   opacity: 1;
+  transform: scale(1.1);
 }
 .clearfix {
   clear: both;
